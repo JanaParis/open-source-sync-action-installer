@@ -44,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: IBM-Toolbox-Mexico-Public/fork-sync@v1.2 # Original repo: tgymnich/fork-sync@v1.2 (use if the action breaks)
+      - uses: Toolbox-Mexico-CIO-Guadalajara-Public/open-source-fork-sync@v1.2 # Original repo: tgymnich/fork-sync@v1.2 (use if the action breaks)
         with:
           github_token: \${{ secrets.$apiKeySecretName }}
           owner: $ownerName # Repo original owner
