@@ -80,6 +80,9 @@ if git status &>/dev/null; then
   echo "- [Opening actions website] -"
 
   open_actions_website
+
+  echo "- [Finished the installation] -"
+  echo "- [Please enable the GitHub action workflows in the forked repo to use this action] -"
   
 else
   echo
